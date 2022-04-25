@@ -1,6 +1,6 @@
 
 function updateMap(){
-fetch("/data.json")
+fetch("data.json")
 .then(respone=>respone.json())
 .then(resp=>{
     console.log(resp.data);
