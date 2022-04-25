@@ -1,6 +1,5 @@
 
 function updateMap(){
-
 fetch('/index.json')
 .then(respone=>respone.json())
 .then(resp=>{
