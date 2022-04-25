@@ -1,6 +1,6 @@
 
 function updateMap(){
-fetch('/index.json')
+fetch('Corona-Case.github.io/index.json')
 .then(respone=>respone.json())
 .then(resp=>{
     console.log(resp.data);
